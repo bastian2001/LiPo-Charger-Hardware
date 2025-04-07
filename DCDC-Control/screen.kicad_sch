@@ -1994,17 +1994,6 @@
 		)
 		(uuid "d1c68c70-3203-4d56-ac7a-ce407cb1c069")
 	)
-	(hierarchical_label "ScreenSPI"
-		(shape bidirectional)
-		(at 90.17 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "013435af-3525-48b0-9d1d-374869debed6")
-	)
 	(hierarchical_label "TE"
 		(shape output)
 		(at 137.16 73.66 180)
@@ -2048,6 +2037,17 @@
 			(justify right)
 		)
 		(uuid "b9a37845-fb02-4725-9eb3-6731307cc4c9")
+	)
+	(hierarchical_label "ScreenSPI"
+		(shape bidirectional)
+		(at 90.17 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5d4cda3-01dc-47af-b6ea-9464bb8a0d7b")
 	)
 	(symbol
 		(lib_id "power:GND")

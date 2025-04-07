@@ -1056,7 +1056,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "62c574ec-f6cf-45b9-8442-3e34513d5d48")
+			(uuid "62c574ec-f6cf-45b9-8442-3e34513d5d49")
 		)
 		(instances
 			(project ""

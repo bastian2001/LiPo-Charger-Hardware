@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "618ba372-1fde-4fbf-82ad-b769a11c2f05")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Ext_TX"
+		(shape input)
+		(at 100.33 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86cb84ff-79ed-4f2f-ba86-e0a2eb5b0921")
+	)
+	(hierarchical_label "Ext_RX"
+		(shape output)
+		(at 100.33 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89c5d70b-9bd8-4d75-a691-28b184afac48")
+	)
+)

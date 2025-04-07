@@ -5,6 +5,37 @@
 	(uuid "97c6212e-ef3b-4707-ad8e-20447d0d1113")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 116.84 71.12) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a2a1b8-8191-444d-9c70-e3ff541b2c9e")
+	)
+	(label "I2C{SDA SCL}"
+		(at 123.19 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea2bf7cf-c848-4bf6-8819-5553d49cc706")
+	)
+	(hierarchical_label "Right_RX"
+		(shape output)
+		(at 116.84 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44302415-6e0c-42e9-bf4a-42aa0c031037")
+	)
 	(hierarchical_label "STAT"
 		(shape output)
 		(at 116.84 78.74 180)
@@ -15,6 +46,17 @@
 			(justify right)
 		)
 		(uuid "4a20b36f-5dcb-49fc-937d-889eda69d02d")
+	)
+	(hierarchical_label "Left_RX"
+		(shape output)
+		(at 116.84 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f5484f4-9d32-4b8f-9ef0-6ce5c2c77a51")
 	)
 	(hierarchical_label "I2C"
 		(shape bidirectional)
@@ -48,5 +90,27 @@
 			(justify right)
 		)
 		(uuid "89e372ad-b77c-4481-9cd6-63f57b5e1d7c")
+	)
+	(hierarchical_label "Left_TX"
+		(shape input)
+		(at 116.84 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a218b645-fe03-46a8-b865-2aeee263382c")
+	)
+	(hierarchical_label "Right_TX"
+		(shape input)
+		(at 116.84 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae8429f3-13c4-43c4-bb55-7ae969a33fd1")
 	)
 )
