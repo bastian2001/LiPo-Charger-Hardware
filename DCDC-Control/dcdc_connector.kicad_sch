@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "97c6212e-ef3b-4707-ad8e-20447d0d1113")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "STAT"
+		(shape output)
+		(at 116.84 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a20b36f-5dcb-49fc-937d-889eda69d02d")
+	)
+	(hierarchical_label "I2C"
+		(shape bidirectional)
+		(at 116.84 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f6b6908-6f65-40b4-91f1-6c0c59d1991c")
+	)
+	(hierarchical_label "CE"
+		(shape input)
+		(at 116.84 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7691e821-c2b4-4ccb-bfaa-78c3c2ac0569")
+	)
+	(hierarchical_label "Int"
+		(shape output)
+		(at 116.84 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89e372ad-b77c-4481-9cd6-63f57b5e1d7c")
+	)
+)

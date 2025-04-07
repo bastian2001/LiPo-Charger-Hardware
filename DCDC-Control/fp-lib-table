@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Control custom")(type "KiCad")(uri "${KIPRJMOD}/Control custom.pretty")(options "")(descr ""))
+  (lib (name "Stinger custom")(type "KiCad")(uri "${KIPRJMOD}/Stinger custom.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,478 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ba49ac25-616e-4d14-b36d-43a04e0b9bd3")
+	(paper "A5")
+	(lib_symbols)
+	(sheet
+		(at 137.16 34.29)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33259ad8-b842-4ab0-9f63-f730187d52db")
+		(property "Sheetname" "LEDs"
+			(at 137.16 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 137.16 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIN" input
+			(at 137.16 36.83 180)
+			(uuid "1d065ffa-3f89-4cc0-bb47-f235559af8a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DOUT" output
+			(at 160.02 36.83 0)
+			(uuid "573c3d17-4115-438b-9c47-385d07d11880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 22.86)
+		(size 35.56 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52e580f5-030c-4953-9588-cafefc7bdd30")
+		(property "Sheetname" "ESP32"
+			(at 80.01 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 80.01 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 83.82)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "746e4c6c-d726-456d-9ece-a7f16dca1268")
+		(property "Sheetname" "Knob"
+			(at 137.16 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "knob.kicad_sch"
+			(at 137.16 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "KnobA" output
+			(at 137.16 86.36 180)
+			(uuid "a1062f30-ef5c-406d-8dcc-17b7a55f5cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KnobB" output
+			(at 137.16 88.9 180)
+			(uuid "4d9ee643-2bd4-44de-b88b-9202df76c955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KnobSw" output
+			(at 137.16 91.44 180)
+			(uuid "3c802d1e-ecc8-4f24-a107-92d65e555107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 22.86)
+		(size 30.48 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8730b77e-a8b9-4699-988c-242382b82cda")
+		(property "Sheetname" "DCDC-Connector"
+			(at 27.94 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcdc_connector.kicad_sch"
+			(at 27.94 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" input
+			(at 58.42 33.02 0)
+			(uuid "69edd730-58a0-4dda-95f9-04b1c2b848c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 58.42 35.56 0)
+			(uuid "f9565f58-400a-4f3b-ad37-ad03904dd133")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Int" output
+			(at 58.42 38.1 0)
+			(uuid "87e36890-80ff-48b4-9048-dc9c61c3876c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STAT" output
+			(at 58.42 40.64 0)
+			(uuid "27a25ad1-8cfa-495d-b34c-a20724abc1a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 59.69)
+		(size 22.86 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b30d65bd-482f-4576-8e12-08b390f51c36")
+		(property "Sheetname" "Screen"
+			(at 137.16 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "screen.kicad_sch"
+			(at 137.16 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC" input
+			(at 137.16 62.23 180)
+			(uuid "8892dd8e-4ac4-4f1b-83c4-d4d577e367d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Reset" input
+			(at 137.16 74.93 180)
+			(uuid "ecc15421-6ea5-4210-88e1-8d0adc5135bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ScreenSPI" bidirectional
+			(at 137.16 64.77 180)
+			(uuid "edb39563-ce19-4f0b-8f99-68cede673e73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TE" output
+			(at 137.16 69.85 180)
+			(uuid "47cec08f-01cf-423b-9da2-7260d0b7401f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Backlight" input
+			(at 137.16 72.39 180)
+			(uuid "71c4b36d-25ba-4941-a36d-3dd505e5b469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 22.86)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4145876-e549-4709-a242-6dac0f63ec31")
+		(property "Sheetname" "Speaker"
+			(at 137.16 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker.kicad_sch"
+			(at 137.16 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Speaker" input
+			(at 137.16 25.4 180)
+			(uuid "8156ad11-5205-4098-baf1-f81c829461f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 45.72)
+		(size 22.86 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9299c68-a99c-43e3-a51d-5c1b50c7fb81")
+		(property "Sheetname" "USB"
+			(at 137.16 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 137.16 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 137.16 48.26 180)
+			(uuid "8f9a1e35-3bc6-4299-b49a-0515139f9aa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 137.16 50.8 180)
+			(uuid "265b2bc1-0bac-44d0-9d29-8f46d4017f61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDC-Control"
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
