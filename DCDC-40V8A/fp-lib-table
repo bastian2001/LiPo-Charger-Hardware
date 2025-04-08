@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DCDC_custom")(type "KiCad")(uri "${KIPRJMOD}/DCDC_custom.pretty")(options "")(descr ""))
+)

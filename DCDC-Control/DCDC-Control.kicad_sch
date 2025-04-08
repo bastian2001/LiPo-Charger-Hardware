@@ -71,7 +71,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 73.66) (xy 90.17 73.66)
+			(xy 63.5 76.2) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -111,7 +111,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 90.17 85.09)
+			(xy 63.5 87.63) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -121,7 +121,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 87.63) (xy 90.17 87.63)
+			(xy 63.5 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -141,7 +141,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 90.17 71.12)
+			(xy 63.5 73.66) (xy 90.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -158,6 +158,16 @@
 			(type default)
 		)
 		(uuid "9de46466-6a6a-4e28-b1d2-06eb6e61f939")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a65b33-d7f8-4db3-a1e5-d3f51adacd8a")
 	)
 	(wire
 		(pts
@@ -313,7 +323,7 @@
 	)
 	(sheet
 		(at 90.17 29.21)
-		(size 35.56 60.96)
+		(size 35.56 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -337,7 +347,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 90.17 90.7546 0)
+			(at 90.17 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,7 +356,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 90.17 85.09 180)
+			(at 90.17 87.63 180)
 			(uuid "c70d8d01-3d0d-4c33-bad9-7bb560eb66d8")
 			(effects
 				(font
@@ -356,7 +366,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 90.17 87.63 180)
+			(at 90.17 90.17 180)
 			(uuid "7d45da56-2564-4884-b192-25e3dda7f67b")
 			(effects
 				(font
@@ -396,7 +406,7 @@
 			)
 		)
 		(pin "Ext_RX" input
-			(at 90.17 71.12 180)
+			(at 90.17 73.66 180)
 			(uuid "d828dcaf-ff6b-40a7-b906-7d6d854a9ba6")
 			(effects
 				(font
@@ -406,7 +416,7 @@
 			)
 		)
 		(pin "Ext_TX" output
-			(at 90.17 73.66 180)
+			(at 90.17 76.2 180)
 			(uuid "95ac106d-02ab-479a-8bbc-e048342de408")
 			(effects
 				(font
@@ -565,6 +575,16 @@
 				(justify left)
 			)
 		)
+		(pin "Button" input
+			(at 125.73 90.17 0)
+			(uuid "deab751f-0561-4fa6-9a8c-582b88548644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
@@ -574,7 +594,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 68.58)
+		(at 40.64 71.12)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -590,7 +610,7 @@
 		)
 		(uuid "532fabe7-17e2-4cb0-8370-f74ce51ddcdf")
 		(property "Sheetname" "Upgrade Port"
-			(at 40.64 67.8684 0)
+			(at 40.64 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +619,7 @@
 			)
 		)
 		(property "Sheetfile" "ext_i2c_uart.kicad_sch"
-			(at 40.64 76.7846 0)
+			(at 40.64 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +628,7 @@
 			)
 		)
 		(pin "Ext_RX" output
-			(at 63.5 71.12 0)
+			(at 63.5 73.66 0)
 			(uuid "64a9e3e7-eb38-4fb5-b3f4-5ee392c1a241")
 			(effects
 				(font
@@ -618,7 +638,7 @@
 			)
 		)
 		(pin "Ext_TX" input
-			(at 63.5 73.66 0)
+			(at 63.5 76.2 0)
 			(uuid "8107fe12-0776-4936-9a0a-59aa3a6c24a8")
 			(effects
 				(font
@@ -637,7 +657,7 @@
 	)
 	(sheet
 		(at 152.4 80.01)
-		(size 22.86 10.16)
+		(size 22.86 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -651,7 +671,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "746e4c6c-d726-456d-9ece-a7f16dca1268")
-		(property "Sheetname" "Knob"
+		(property "Sheetname" "Buttons"
 			(at 152.4 79.2984 0)
 			(effects
 				(font
@@ -660,8 +680,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "knob.kicad_sch"
-			(at 152.4 90.7546 0)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 152.4 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,6 +719,16 @@
 				(justify left)
 			)
 		)
+		(pin "Button" output
+			(at 152.4 90.17 180)
+			(uuid "a54539c8-7f9a-4bdf-a5c1-72e466b6f7fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3"
@@ -709,7 +739,7 @@
 	)
 	(sheet
 		(at 40.64 29.21)
-		(size 22.86 31.75)
+		(size 22.86 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -733,7 +763,7 @@
 			)
 		)
 		(property "Sheetfile" "dcdc_connector.kicad_sch"
-			(at 40.64 61.5446 0)
+			(at 40.64 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1004,7 @@
 		)
 	)
 	(sheet
-		(at 40.64 82.55)
+		(at 40.64 85.09)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -990,7 +1020,7 @@
 		)
 		(uuid "d9299c68-a99c-43e3-a51d-5c1b50c7fb81")
 		(property "Sheetname" "USB"
-			(at 40.64 81.8384 0)
+			(at 40.64 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1029,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 40.64 90.7546 0)
+			(at 40.64 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,7 +1038,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 63.5 85.09 0)
+			(at 63.5 87.63 0)
 			(uuid "8f9a1e35-3bc6-4299-b49a-0515139f9aa6")
 			(effects
 				(font
@@ -1018,7 +1048,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 63.5 87.63 0)
+			(at 63.5 90.17 0)
 			(uuid "265b2bc1-0bac-44d0-9d29-8f46d4017f61")
 			(effects
 				(font

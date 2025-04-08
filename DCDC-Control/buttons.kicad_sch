@@ -1218,7 +1218,7 @@
 			(uuid "b9f02118-db64-48ba-9c64-4f0df87ae390")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "BN1")
 					(unit 1)
@@ -1354,7 +1354,7 @@
 			(uuid "e3ffedf6-b939-4518-a0bc-fee9fe48f046")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "#PWR026")
 					(unit 1)
@@ -1420,7 +1420,7 @@
 			(uuid "8af6b58f-cc78-4cf4-b0de-fd412ab15a89")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "#PWR033")
 					(unit 1)
@@ -1490,7 +1490,7 @@
 			(uuid "78aae046-e87c-4228-9c3e-20d397d03fcc")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "R8")
 					(unit 1)
@@ -1703,7 +1703,7 @@
 			(uuid "601fbdff-e5a2-4b70-9b22-5e63af7e7ccf")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "SW2")
 					(unit 1)
@@ -1770,7 +1770,7 @@
 			(uuid "96acc5be-6149-45ff-9043-2145878dfde2")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "#PWR024")
 					(unit 1)
@@ -1836,7 +1836,7 @@
 			(uuid "bd329452-edfb-4402-81fd-c63adffee099")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "#PWR034")
 					(unit 1)
@@ -1972,7 +1972,7 @@
 			(uuid "b6438aa7-0a4c-42a5-9c8f-347232f866e8")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "R5")
 					(unit 1)
@@ -2038,7 +2038,7 @@
 			(uuid "3c552731-c4ac-4a00-99b0-3d2da2e315eb")
 		)
 		(instances
-			(project ""
+			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/746e4c6c-d726-456d-9ece-a7f16dca1268"
 					(reference "#PWR025")
 					(unit 1)

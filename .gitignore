@@ -3,3 +3,5 @@
 #KiCad files
 *-backups/
 fp-info-cache
+\#auto_saved_files#
+*.lck

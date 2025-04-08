@@ -2134,26 +2134,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 196.85 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e07696-3dde-4a0c-90f2-6624cff12560")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 152.4 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0edbe3ae-9cc4-4394-bfcc-c49ad098fc6c")
-	)
-	(wire
-		(pts
 			(xy 99.06 68.58) (xy 105.41 68.58)
 		)
 		(stroke
@@ -2161,6 +2141,16 @@
 			(type default)
 		)
 		(uuid "0f65d0c5-9884-45ea-963c-65530132ccad")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fadf22e-db85-49c4-a807-2290c124c7f1")
 	)
 	(wire
 		(pts
@@ -2172,16 +2162,6 @@
 		)
 		(uuid "100a77db-04ff-4d10-a167-1866a0ae798f")
 	)
-	(wire
-		(pts
-			(xy 127 130.81) (xy 152.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ff06a6-61af-4088-a588-0489a6f2d1d1")
-	)
 	(bus
 		(pts
 			(xy 78.74 123.19) (xy 111.76 123.19)
@@ -2191,36 +2171,6 @@
 			(type default)
 		)
 		(uuid "177616e3-ac00-49a0-8ca2-edf0fba9f98b")
-	)
-	(wire
-		(pts
-			(xy 127 113.03) (xy 152.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2424e401-fa5f-4792-aa67-4f528f743288")
-	)
-	(wire
-		(pts
-			(xy 127 123.19) (xy 152.4 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "255f62e5-3a4d-405b-a17e-8b38a69b628d")
-	)
-	(wire
-		(pts
-			(xy 127 125.73) (xy 152.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26230592-5842-493e-a09a-2858aae9e9f2")
 	)
 	(wire
 		(pts
@@ -2264,13 +2214,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 128.27) (xy 152.4 128.27)
+			(xy 127 123.19) (xy 152.4 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3271662e-9e42-460d-8314-a2f7cf47ab54")
+		(uuid "3257e7ae-b84a-4fd5-a037-48cecce73280")
 	)
 	(wire
 		(pts
@@ -2291,6 +2241,26 @@
 			(type default)
 		)
 		(uuid "3c8ac710-d2b7-4aa9-b0e4-106e9690388a")
+	)
+	(wire
+		(pts
+			(xy 127 113.03) (xy 152.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e133fd8-5403-4a99-b7ec-87a327445da6")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 152.4 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50294265-31f8-4b7d-9075-bfd4707f59de")
 	)
 	(wire
 		(pts
@@ -2341,6 +2311,16 @@
 			(type default)
 		)
 		(uuid "6b2ec916-f0d5-47d9-9626-c3f3785ff5e4")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e35b238-11ef-4765-ac7e-4e7e97f89ce1")
 	)
 	(wire
 		(pts
@@ -2401,6 +2381,16 @@
 			(type default)
 		)
 		(uuid "9a57a127-c997-47cc-b7e6-b47644c829f4")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 152.4 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7832272-ec3d-447b-847a-8b8e5c17ca30")
 	)
 	(wire
 		(pts
@@ -2474,13 +2464,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 123.19) (xy 196.85 123.19)
+			(xy 127 128.27) (xy 152.4 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caadcac7-241a-466d-8d67-0ba3afe94497")
+		(uuid "cadc0201-0c9d-40c3-ad7e-34fe362b3a11")
 	)
 	(wire
 		(pts
@@ -2552,6 +2542,16 @@
 		)
 		(uuid "e11d4908-c99c-4f01-94da-ca3decc41f3c")
 	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 196.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69f1f5c-bde5-48cf-946b-e35c359046c1")
+	)
 	(bus
 		(pts
 			(xy 111.76 118.11) (xy 111.76 120.65)
@@ -2561,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "f9d6f132-b2a0-445d-baa7-1ff85539a36a")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb9104ab-a4bf-48e2-b407-df261a21747d")
 	)
 	(wire
 		(pts
@@ -2654,14 +2664,36 @@
 	)
 	(hierarchical_label "DC"
 		(shape output)
-		(at 127 130.81 180)
+		(at 127 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0752b241-5f84-488e-9047-27181bccfb2a")
+		(uuid "065ed3af-e456-4451-b418-90e9fb0db25a")
+	)
+	(hierarchical_label "Backlight"
+		(shape output)
+		(at 127 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "326b5213-2517-4cbc-98ef-1d96317c97fd")
+	)
+	(hierarchical_label "TE"
+		(shape input)
+		(at 127 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3276aa37-71a9-4191-9ddf-ea26d8a4bb85")
 	)
 	(hierarchical_label "Ext_TX"
 		(shape output)
@@ -2685,16 +2717,16 @@
 		)
 		(uuid "3b05144e-b9a8-4543-99d0-eb26c87ab7d7")
 	)
-	(hierarchical_label "LED"
-		(shape output)
-		(at 127 110.49 180)
+	(hierarchical_label "Button"
+		(shape input)
+		(at 196.85 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5969a599-f515-4ae3-a3ef-4d848c7ffbed")
+		(uuid "3d50897a-2b6c-45f3-8c3c-944aefdeb545")
 	)
 	(hierarchical_label "DCDC_Stat"
 		(shape input)
@@ -2707,27 +2739,16 @@
 		)
 		(uuid "5febc65c-e892-494e-bebf-a4e304d047e2")
 	)
-	(hierarchical_label "Right_RX"
-		(shape input)
-		(at 196.85 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6079d193-1372-4506-aea6-40a3b6ba9ec9")
-	)
-	(hierarchical_label "Scr_Reset"
+	(hierarchical_label "Speaker"
 		(shape output)
-		(at 127 128.27 180)
+		(at 127 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "68dcf82d-564d-4fc5-81e0-b3b5d7e3c0ea")
+		(uuid "717a5b51-dbcc-40c0-989d-16b9db42e0e6")
 	)
 	(hierarchical_label "I2C"
 		(shape bidirectional)
@@ -2762,16 +2783,16 @@
 		)
 		(uuid "81c6e9c9-4600-4b91-894c-9f4372c687a9")
 	)
-	(hierarchical_label "Backlight"
+	(hierarchical_label "Right_TX"
 		(shape output)
-		(at 127 125.73 180)
+		(at 127 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "831e6011-f5b2-43d7-aa68-5fe4469942d3")
+		(uuid "873800f1-03c1-4dee-84c4-ad5da5dc753a")
 	)
 	(hierarchical_label "KnobB"
 		(shape input)
@@ -2784,17 +2805,6 @@
 		)
 		(uuid "90dd721e-af9c-4e84-9560-b1b67126033b")
 	)
-	(hierarchical_label "Speaker"
-		(shape output)
-		(at 127 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92f5170e-261a-4c0f-bb4c-fc75fadfe2d8")
-	)
 	(hierarchical_label "DCDC_CE"
 		(shape output)
 		(at 127 97.79 180)
@@ -2805,17 +2815,6 @@
 			(justify right)
 		)
 		(uuid "947b6e4f-053e-4dda-9aa0-ab11a974b043")
-	)
-	(hierarchical_label "TE"
-		(shape input)
-		(at 127 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "95c7020c-5c35-4502-81cf-459db6fb2506")
 	)
 	(hierarchical_label "Ext_RX"
 		(shape input)
@@ -2828,16 +2827,27 @@
 		)
 		(uuid "9e0d1987-74a4-4b49-ab71-6fcf4ae16568")
 	)
-	(hierarchical_label "Right_TX"
+	(hierarchical_label "LED"
 		(shape output)
-		(at 196.85 123.19 0)
+		(at 127 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "b27cff7e-ecd3-42c2-b804-aa9223b801ef")
+		(uuid "c607c83a-ad25-4317-964e-1531da34963b")
+	)
+	(hierarchical_label "Right_RX"
+		(shape input)
+		(at 127 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cea2b9f4-006b-4565-b049-6f6b986add6e")
 	)
 	(hierarchical_label "KnobA"
 		(shape input)
@@ -2882,6 +2892,17 @@
 			(justify left)
 		)
 		(uuid "d9109731-c91a-43c6-8f22-c08803b21907")
+	)
+	(hierarchical_label "Scr_Reset"
+		(shape output)
+		(at 127 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd73f6d8-f7ed-43a2-86e3-4c071e4f6c1c")
 	)
 	(hierarchical_label "Left_TX"
 		(shape output)

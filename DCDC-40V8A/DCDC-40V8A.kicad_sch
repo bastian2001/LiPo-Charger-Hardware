@@ -1,5 +1,268 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c2f330be-6ca8-4ed0-86db-c2e1bfb68425")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 88.9 52.07) (xy 118.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a4f690-d14b-4e9c-829b-a88d5716ca70")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 118.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38662b52-4285-45a8-8515-ab11ad044ada")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481f1abd-d514-4903-b327-9cf1d061f3e7")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45fafd-f7da-4095-8268-bf4ee6884bfc")
+	)
+	(label "I2C{SDA SCL}"
+		(at 97.79 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e239f58-e46e-4ae2-94a2-0d188594b94a")
+	)
+	(sheet
+		(at 118.11 30.48)
+		(size 48.26 106.68)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54fe40ea-071e-47fc-93b0-08edbf0643ce")
+		(property "Sheetname" "Control-Connector"
+			(at 118.11 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control_connector.kicad_sch"
+			(at 118.11 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" output
+			(at 118.11 49.53 180)
+			(uuid "c32c409b-873d-440f-84ab-cf8e09c66601")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 118.11 52.07 180)
+			(uuid "7cc6387a-74ac-4271-90ab-965b496cb1de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Int" input
+			(at 118.11 54.61 180)
+			(uuid "b0c8676a-bf4b-48bb-aa64-a2196125fe17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Left_RX" input
+			(at 118.11 110.49 180)
+			(uuid "3f19fca6-5f1c-466c-94c2-a55c49854e12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Left_TX" output
+			(at 118.11 113.03 180)
+			(uuid "66a9836d-c8e4-4939-8765-8ec6f51e2e75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Right_RX" input
+			(at 166.37 113.03 0)
+			(uuid "c13aade3-1339-4a7e-ba40-c0ea83116ca1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Right_TX" output
+			(at 166.37 110.49 0)
+			(uuid "bd514e80-b523-4698-84a7-4f9bd8a7e485")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STAT" input
+			(at 118.11 57.15 180)
+			(uuid "b7b976d9-0ffb-44a0-8b13-577beeb19e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 41.91)
+		(size 39.37 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e02b7f28-305a-4574-afeb-14db4b4e1edd")
+		(property "Sheetname" "Power"
+			(at 49.53 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 49.53 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" input
+			(at 88.9 49.53 0)
+			(uuid "dc1d8e90-2900-47d6-b43c-37c9396ee562")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 88.9 52.07 0)
+			(uuid "2b633d3c-6d13-4832-916c-b6028605dc54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Int" output
+			(at 88.9 54.61 0)
+			(uuid "60c767a1-4f36-4321-884e-f14f685669cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STAT" output
+			(at 88.9 57.15 0)
+			(uuid "61365c6b-cf18-41ce-81b4-28f2ec3ad8f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
