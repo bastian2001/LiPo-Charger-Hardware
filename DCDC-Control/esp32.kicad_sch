@@ -2134,6 +2134,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 87.63) (xy 247.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034a4144-e596-4728-b675-22ad3932d821")
+	)
+	(wire
+		(pts
 			(xy 99.06 68.58) (xy 105.41 68.58)
 		)
 		(stroke
@@ -2281,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "535c5945-6fc2-4ecd-a17b-ba8891184a71")
+	)
+	(wire
+		(pts
+			(xy 262.89 87.63) (xy 262.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a403b8-d682-466f-b9d8-3e5d05b7374a")
 	)
 	(wire
 		(pts
@@ -2592,6 +2612,16 @@
 		)
 		(uuid "ff606ae3-cd20-475c-8c7a-89534035aa4c")
 	)
+	(label "I2C.SDA"
+		(at 262.89 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0998f3ea-09a4-43bd-afdc-72e17933601f")
+	)
 	(label "ScreenSPI{CS SCLK SDA}"
 		(at 82.55 123.19 0)
 		(effects
@@ -2641,6 +2671,16 @@
 			(justify right bottom)
 		)
 		(uuid "c4ec9d24-b355-48ff-9b7f-e587b5259aac")
+	)
+	(label "I2C.SCL"
+		(at 247.65 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce203f3b-7dfc-41a9-a081-3dad88dc2f77")
 	)
 	(label "I2C{SDA SCL}"
 		(at 106.68 97.79 180)
@@ -2916,6 +2956,146 @@
 		(uuid "f6525947-0b8c-4f8f-ab0a-08df2c8e1285")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b037e0b-0524-4f9e-a165-a81a83d671e0")
+		(property "Reference" "R9"
+			(at 250.19 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 250.19 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 245.872 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3764af42-643a-4ef5-84e1-24bce69a3c0c")
+		)
+		(pin "2"
+			(uuid "5d8f2fa7-511e-47b7-9fbf-eabbb56403ac")
+		)
+		(instances
+			(project ""
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/52e580f5-030c-4953-9588-cafefc7bdd30"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a85e4e1-0df8-4666-b795-754e2c332132")
+		(property "Reference" "R10"
+			(at 265.43 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8k"
+			(at 265.43 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 261.112 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3764af42-643a-4ef5-84e1-24bce69a3c0c")
+		)
+		(pin "2"
+			(uuid "5d8f2fa7-511e-47b7-9fbf-eabbb56403ac")
+		)
+		(instances
+			(project ""
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/52e580f5-030c-4953-9588-cafefc7bdd30"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 144.78 77.47 0)
 		(unit 1)
@@ -3184,6 +3364,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 247.65 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64cd5264-c198-4ba1-b178-e994226385e3")
+		(property "Reference" "#PWR044"
+			(at 247.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 247.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64dd9445-ade2-479b-9161-c69a93f38d63")
+		)
+		(instances
+			(project ""
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/52e580f5-030c-4953-9588-cafefc7bdd30"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 85.09 90)
 		(unit 1)
@@ -3312,6 +3558,72 @@
 			(project "DCDC-Control"
 				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/52e580f5-030c-4953-9588-cafefc7bdd30"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 262.89 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92b0faea-b939-42ac-8b2b-5fadd556038b")
+		(property "Reference" "#PWR045"
+			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 262.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64dd9445-ade2-479b-9161-c69a93f38d63")
+		)
+		(instances
+			(project ""
+				(path "/ba49ac25-616e-4d14-b36d-43a04e0b9bd3/52e580f5-030c-4953-9588-cafefc7bdd30"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)

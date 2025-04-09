@@ -423,6 +423,10 @@
     [
       "54fe40ea-071e-47fc-93b0-08edbf0643ce",
       "Control-Connector"
+    ],
+    [
+      "4147f2be-5121-441a-a725-d81cf0735d2c",
+      "ADC-Coprocessor"
     ]
   ],
   "text_variables": {}

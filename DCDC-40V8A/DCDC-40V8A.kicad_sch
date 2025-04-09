@@ -5,15 +5,31 @@
 	(uuid "c2f330be-6ca8-4ed0-86db-c2e1bfb68425")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 104.14 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b39b5143-03ab-47e6-aa08-1f30b417b26e")
+	)
 	(bus
 		(pts
-			(xy 88.9 52.07) (xy 118.11 52.07)
+			(xy 88.9 52.07) (xy 104.14 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00a4f690-d14b-4e9c-829b-a88d5716ca70")
+	)
+	(bus
+		(pts
+			(xy 104.14 52.07) (xy 118.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2071b147-1e9c-49bf-81e0-1464d4656109")
 	)
 	(wire
 		(pts
@@ -34,6 +50,16 @@
 			(type default)
 		)
 		(uuid "481f1abd-d514-4903-b327-9cf1d061f3e7")
+	)
+	(bus
+		(pts
+			(xy 104.14 52.07) (xy 104.14 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d52db7-bcb5-428a-be65-35d5b145354a")
 	)
 	(wire
 		(pts
@@ -56,8 +82,60 @@
 		(uuid "1e239f58-e46e-4ae2-94a2-0d188594b94a")
 	)
 	(sheet
+		(at 49.53 120.65)
+		(size 118.11 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4147f2be-5121-441a-a725-d81cf0735d2c")
+		(property "Sheetname" "ADC-Coprocessor"
+			(at 49.53 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_coprocessor.kicad_sch"
+			(at 49.53 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C" bidirectional
+			(at 104.14 120.65 90)
+			(uuid "161d199a-59df-456c-8618-a8191db6b74c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.11 30.48)
-		(size 48.26 106.68)
+		(size 48.26 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -81,7 +159,7 @@
 			)
 		)
 		(property "Sheetfile" "control_connector.kicad_sch"
-			(at 118.11 137.7446 0)
+			(at 118.11 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +198,7 @@
 			)
 		)
 		(pin "Left_RX" input
-			(at 118.11 110.49 180)
+			(at 118.11 91.44 180)
 			(uuid "3f19fca6-5f1c-466c-94c2-a55c49854e12")
 			(effects
 				(font
@@ -130,7 +208,7 @@
 			)
 		)
 		(pin "Left_TX" output
-			(at 118.11 113.03 180)
+			(at 118.11 93.98 180)
 			(uuid "66a9836d-c8e4-4939-8765-8ec6f51e2e75")
 			(effects
 				(font
@@ -140,7 +218,7 @@
 			)
 		)
 		(pin "Right_RX" input
-			(at 166.37 113.03 0)
+			(at 166.37 93.98 0)
 			(uuid "c13aade3-1339-4a7e-ba40-c0ea83116ca1")
 			(effects
 				(font
@@ -150,7 +228,7 @@
 			)
 		)
 		(pin "Right_TX" output
-			(at 166.37 110.49 0)
+			(at 166.37 91.44 0)
 			(uuid "bd514e80-b523-4698-84a7-4f9bd8a7e485")
 			(effects
 				(font
@@ -249,6 +327,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "EN" input
+			(at 76.2 99.06 270)
+			(uuid "4c69713b-d143-4c4b-8de9-f666df46dcc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
