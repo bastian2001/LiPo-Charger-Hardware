@@ -427,6 +427,10 @@
     [
       "4147f2be-5121-441a-a725-d81cf0735d2c",
       "ADC-Coprocessor"
+    ],
+    [
+      "b58d0b11-fbb2-49f2-b41c-fbcb5389b562",
+      "Charge Pump"
     ]
   ],
   "text_variables": {}
