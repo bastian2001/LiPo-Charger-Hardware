@@ -1,35 +1,19 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c2f330be-6ca8-4ed0-86db-c2e1bfb68425")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
-	(junction
-		(at 104.14 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b39b5143-03ab-47e6-aa08-1f30b417b26e")
-	)
 	(bus
 		(pts
-			(xy 88.9 52.07) (xy 104.14 52.07)
+			(xy 88.9 52.07) (xy 118.11 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00a4f690-d14b-4e9c-829b-a88d5716ca70")
-	)
-	(bus
-		(pts
-			(xy 104.14 52.07) (xy 118.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2071b147-1e9c-49bf-81e0-1464d4656109")
 	)
 	(wire
 		(pts
@@ -50,16 +34,6 @@
 			(type default)
 		)
 		(uuid "481f1abd-d514-4903-b327-9cf1d061f3e7")
-	)
-	(bus
-		(pts
-			(xy 104.14 52.07) (xy 104.14 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d52db7-bcb5-428a-be65-35d5b145354a")
 	)
 	(wire
 		(pts
@@ -82,8 +56,8 @@
 		(uuid "1e239f58-e46e-4ae2-94a2-0d188594b94a")
 	)
 	(sheet
-		(at 49.53 120.65)
-		(size 118.11 31.75)
+		(at 48.26 125.73)
+		(size 109.22 102.87)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -94,11 +68,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4147f2be-5121-441a-a725-d81cf0735d2c")
 		(property "Sheetname" "ADC-Coprocessor"
-			(at 49.53 119.9384 0)
+			(at 48.26 125.0184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +83,9 @@
 			)
 		)
 		(property "Sheetfile" "adc_coprocessor.kicad_sch"
-			(at 49.53 152.9846 0)
+			(at 48.26 229.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,20 +93,86 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C" bidirectional
-			(at 104.14 120.65 90)
-			(uuid "161d199a-59df-456c-8618-a8191db6b74c")
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 121.92)
+		(size 55.88 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "51381f4c-12f1-4706-8b37-947c995475bc")
+		(property "Sheetname" "ADC MUX and Discharge"
+			(at 189.23 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_dischg.kicad_sch"
+			(at 189.23 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_OUT" output
+			(at 189.23 134.62 180)
+			(uuid "22d9f9c4-0e9b-4762-b58c-c629f62bff34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Disch_Shift_In" input
+			(at 189.23 139.7 180)
+			(uuid "d541cfae-04f5-44aa-bf91-f945a4c84f30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Disch_Shift_Out" output
+			(at 214.63 162.56 270)
+			(uuid "99f4b668-8ef6-40dc-8d3c-49494ed87953")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
@@ -146,11 +190,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "54fe40ea-071e-47fc-93b0-08edbf0643ce")
 		(property "Sheetname" "Control-Connector"
 			(at 118.11 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,6 +206,8 @@
 		)
 		(property "Sheetfile" "control_connector.kicad_sch"
 			(at 118.11 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -268,11 +316,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e02b7f28-305a-4574-afeb-14db4b4e1edd")
 		(property "Sheetname" "Power"
 			(at 49.53 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,6 +332,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 49.53 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
