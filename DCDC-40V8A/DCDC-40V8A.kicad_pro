@@ -441,7 +441,7 @@
         "uuid": "c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R26-83,U18-19,Q13-20,Q26-43,D6-8,C38,C49,#PWR23,#PWR52-53,#PWR67-70,#PWR72-73,#PWR83,#PWR99-108",
     "variants": []
   },
   "sheets": [
@@ -467,7 +467,11 @@
     ],
     [
       "51381f4c-12f1-4706-8b37-947c995475bc",
-      "ADC MUX and Discharge"
+      "ADC MUX and Discharge A"
+    ],
+    [
+      "e0b65b8f-c795-4a2e-8202-c0b4e9bf4bed",
+      "ADC MUX and Discharge B"
     ]
   ],
   "text_variables": {},
