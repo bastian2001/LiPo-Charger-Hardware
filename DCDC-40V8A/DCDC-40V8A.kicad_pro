@@ -441,7 +441,7 @@
         "uuid": "c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
       }
     ],
-    "used_designators": "R26-83,U18-19,Q13-20,Q26-43,D6-8,C38,C49,#PWR23,#PWR52-53,#PWR67-70,#PWR72-73,#PWR83,#PWR99-108",
+    "used_designators": "D29-31,R164-165,R200-213,U14,U21-22,Q26,Q47-55,Q66,Q69-80,#PWR89-92,#PWR94-95,#PWR114,#PWR152,#PWR165-169",
     "variants": []
   },
   "sheets": [
@@ -472,6 +472,66 @@
     [
       "e0b65b8f-c795-4a2e-8202-c0b4e9bf4bed",
       "ADC MUX and Discharge B"
+    ],
+    [
+      "f687458a-7af1-474b-a5c1-3a6b7c43e286",
+      "NTC"
+    ],
+    [
+      "65758ed6-f2f7-4248-9c04-393f8a45794c",
+      "NTC1"
+    ],
+    [
+      "6b5bf16c-7d9c-48b9-8191-aea348b50475",
+      "NTC2"
+    ],
+    [
+      "8f762675-5513-41aa-a030-66a60a59921c",
+      "NTC3"
+    ],
+    [
+      "463d7dd3-1aa4-434f-b3f6-c52e59e8219c",
+      "NTC4"
+    ],
+    [
+      "a7c9abec-a7e4-418c-a6f5-821f3f92652d",
+      "NTC5"
+    ],
+    [
+      "a562db56-2314-4358-a0cb-9be91abb5618",
+      "NTC6"
+    ],
+    [
+      "f95a58bc-bd44-45b4-a8f0-3b46168eca58",
+      "NTC7"
+    ],
+    [
+      "7ec15f9e-fb9a-4518-abe3-5ef731e54737",
+      "Cell_V_DiffAmps A"
+    ],
+    [
+      "912db41d-8a30-49d1-bc47-31920f0c8f26",
+      "Cell_V_DiffAmps B"
+    ],
+    [
+      "c8faf9a2-a06b-4950-bc84-d537bbe92927",
+      "Balance Power A"
+    ],
+    [
+      "fb171ca2-2c26-4c9d-8646-649d698c8bbc",
+      "Balance Power B"
+    ],
+    [
+      "82e88553-6a2b-4207-ade0-f53f84fac1b6",
+      "Power Inputs"
+    ],
+    [
+      "35ea2b85-8662-425b-8163-078ba94f1df8",
+      "Temp Sensors"
+    ],
+    [
+      "e6ebcbcb-d240-4cbb-8192-a1879e06243d",
+      "Power Outputs"
     ]
   ],
   "text_variables": {},

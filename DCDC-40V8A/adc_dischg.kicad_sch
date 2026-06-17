@@ -2367,6 +2367,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "TODO: Search better PMOS"
+		(exclude_from_sim no)
+		(at 199.39 15.24 0)
+		(size 24.13 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "198c87a2-9892-450a-9080-a5b8967ea6bb")
+	)
 	(junction
 		(at 227.33 62.23)
 		(diameter 0)
@@ -3747,7 +3767,7 @@
 		)
 		(uuid "ffc3d223-eb00-475a-9dc6-e4a3027300c1")
 	)
-	(label "MEAS_ADC7"
+	(label "MEAS_L7"
 		(at 90.17 160.02 0)
 		(effects
 			(font
@@ -3767,7 +3787,7 @@
 		)
 		(uuid "12e05ae6-d882-4399-8109-ddd72173f8bd")
 	)
-	(label "MEAS_ADC5"
+	(label "MEAS_L5"
 		(at 90.17 154.94 0)
 		(effects
 			(font
@@ -3777,7 +3797,7 @@
 		)
 		(uuid "1e679f3c-5905-490f-b5fb-bf4e19a7ffac")
 	)
-	(label "MEAS_ADC8"
+	(label "MEAS_L8"
 		(at 90.17 162.56 0)
 		(effects
 			(font
@@ -3807,7 +3827,7 @@
 		)
 		(uuid "46d1acfb-6417-4aa2-9a70-c24699f2b38f")
 	)
-	(label "MEAS_ADC6"
+	(label "MEAS_L6"
 		(at 90.17 157.48 0)
 		(effects
 			(font
@@ -3847,7 +3867,7 @@
 		)
 		(uuid "63944928-8a0c-4ab3-b22d-163ab385609b")
 	)
-	(label "MEAS_ADC4"
+	(label "MEAS_L4"
 		(at 90.17 152.4 0)
 		(effects
 			(font
@@ -3877,7 +3897,7 @@
 		)
 		(uuid "80801c10-71c7-477d-a9f7-a5b60be72b61")
 	)
-	(label "MEAS_ADC3"
+	(label "MEAS_L3"
 		(at 90.17 149.86 0)
 		(effects
 			(font
@@ -3967,7 +3987,7 @@
 		)
 		(uuid "b963e610-74a1-416d-ab61-b53b9524a0d1")
 	)
-	(label "MEAS_ADC1"
+	(label "MEAS_L1"
 		(at 90.17 144.78 0)
 		(effects
 			(font
@@ -3977,7 +3997,7 @@
 		)
 		(uuid "bd726747-5dd6-49a6-ba43-d38ba32dbe2b")
 	)
-	(label "MEAS_ADC2"
+	(label "MEAS_L2"
 		(at 90.17 147.32 0)
 		(effects
 			(font
@@ -4151,7 +4171,7 @@
 		)
 		(uuid "8dc49e4b-3927-4d0c-aaaf-7bcdbb5883fb")
 	)
-	(hierarchical_label "MEAS_ADC[1..8]"
+	(hierarchical_label "MEAS_L[1..8]"
 		(shape input)
 		(at 111.76 139.7 90)
 		(effects
@@ -4184,7 +4204,7 @@
 		)
 		(uuid "989899b8-a0f5-463f-af78-6091b3fa1e84")
 	)
-	(hierarchical_label "ADC_OUT"
+	(hierarchical_label "ADC_OUT_L"
 		(shape output)
 		(at 44.45 147.32 180)
 		(effects
@@ -9333,10 +9353,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "89c12e33-6a95-4aab-a4d1-ab3f0859b069")
+			(uuid "89c12e33-6a95-4aab-a4d1-ab3f0859b06a")
 		)
 		(pin "1"
-			(uuid "d13e76d6-2bfe-4672-8712-e59edbaca66e")
+			(uuid "d13e76d6-2bfe-4672-8712-e59edbaca66f")
 		)
 		(instances
 			(project "DCDC-40V8A"
