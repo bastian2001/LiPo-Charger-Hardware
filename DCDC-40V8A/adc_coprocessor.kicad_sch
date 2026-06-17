@@ -3412,10 +3412,6 @@
 		(uuid "8d966995-42ae-471d-9974-257a6e8d675e")
 	)
 	(no_connect
-		(at 269.24 102.87)
-		(uuid "e7fa2a36-7a48-4d75-8df3-ed2e5d8231a5")
-	)
-	(no_connect
 		(at 92.71 111.76)
 		(uuid "f499c255-d505-4620-ad43-4b814e24c309")
 	)
@@ -3796,6 +3792,16 @@
 			(type default)
 		)
 		(uuid "56428b22-aee1-43b8-8af1-326d179a568b")
+	)
+	(wire
+		(pts
+			(xy 269.24 102.87) (xy 285.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59690490-5f3b-486f-94e3-55b5d524b9ff")
 	)
 	(wire
 		(pts
@@ -4992,6 +4998,17 @@
 			(justify left)
 		)
 		(uuid "b6ec51b3-22fb-400d-aaa1-0ebb07f8d863")
+	)
+	(hierarchical_label "12V_EN"
+		(shape output)
+		(at 285.75 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8488701-16e2-42e9-b072-20cb2454c1df")
 	)
 	(hierarchical_label "TEMP_4_ADC"
 		(shape input)

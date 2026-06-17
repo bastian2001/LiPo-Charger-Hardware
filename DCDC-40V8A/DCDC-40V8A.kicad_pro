@@ -441,7 +441,7 @@
         "uuid": "c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
       }
     ],
-    "used_designators": "TH1-8,L1-3,J1-4,C1-48,D1-31,R1-192,R200-213,U1-22,Q1-57,Q66,Q69-80,#PWR1-155,#PWR165-169",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -524,6 +524,10 @@
     [
       "82e88553-6a2b-4207-ade0-f53f84fac1b6",
       "Power Inputs"
+    ],
+    [
+      "0562acf4-8a93-4354-be07-2ba6feb96f67",
+      "Small External Connectors"
     ],
     [
       "e6ebcbcb-d240-4cbb-8192-a1879e06243d",

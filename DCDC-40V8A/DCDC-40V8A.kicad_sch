@@ -718,7 +718,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 170.18) (xy 105.41 170.18)
+			(xy 86.36 170.18) (xy 104.14 170.18)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 128.27) (xy 105.41 128.27)
+			(xy 86.36 128.27) (xy 104.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 177.8) (xy 105.41 177.8)
+			(xy 86.36 177.8) (xy 104.14 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 175.26) (xy 105.41 175.26)
+			(xy 86.36 175.26) (xy 104.14 175.26)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 172.72) (xy 105.41 172.72)
+			(xy 86.36 172.72) (xy 104.14 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 125.73) (xy 105.41 125.73)
+			(xy 86.36 125.73) (xy 104.14 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2181,6 +2181,52 @@
 		)
 	)
 	(sheet
+		(at 175.26 82.55)
+		(size 48.26 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0562acf4-8a93-4354-be07-2ba6feb96f67")
+		(property "Sheetname" "Small External Connectors"
+			(at 175.26 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conn.kicad_sch"
+			(at 175.26 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 123.19 233.68)
 		(size 76.2 22.86)
 		(exclude_from_sim no)
@@ -2307,8 +2353,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 119.38)
-		(size 109.22 102.87)
+		(at 104.14 119.38)
+		(size 110.49 102.87)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2323,7 +2369,7 @@
 		)
 		(uuid "4147f2be-5121-441a-a725-d81cf0735d2c")
 		(property "Sheetname" "ADC-Coprocessor"
-			(at 105.41 118.6684 0)
+			(at 104.14 118.6684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2334,7 +2380,7 @@
 			)
 		)
 		(property "Sheetfile" "adc_coprocessor.kicad_sch"
-			(at 105.41 222.8346 0)
+			(at 104.14 222.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2515,7 +2561,7 @@
 			)
 		)
 		(pin "CHAN_A_EN" output
-			(at 105.41 172.72 180)
+			(at 104.14 172.72 180)
 			(uuid "da29f1ec-9490-4c8e-8b05-c1b118a051c1")
 			(effects
 				(font
@@ -2525,7 +2571,7 @@
 			)
 		)
 		(pin "CHAN_B_EN" output
-			(at 105.41 175.26 180)
+			(at 104.14 175.26 180)
 			(uuid "e6a3ca21-6859-482b-b976-9d5bb787ac51")
 			(effects
 				(font
@@ -2535,7 +2581,7 @@
 			)
 		)
 		(pin "FAN_EN" output
-			(at 105.41 208.28 180)
+			(at 104.14 208.28 180)
 			(uuid "ce137303-e228-4d99-84c3-3be9fb89c17d")
 			(effects
 				(font
@@ -2545,7 +2591,7 @@
 			)
 		)
 		(pin "VBAT_A_ADC" input
-			(at 105.41 170.18 180)
+			(at 104.14 170.18 180)
 			(uuid "88575eaf-5cf9-430a-b6c6-2b5ca4da1324")
 			(effects
 				(font
@@ -2555,7 +2601,7 @@
 			)
 		)
 		(pin "VBAT_B_ADC" input
-			(at 105.41 177.8 180)
+			(at 104.14 177.8 180)
 			(uuid "37085917-d72e-48c8-8e73-74c39e315f17")
 			(effects
 				(font
@@ -2595,7 +2641,7 @@
 			)
 		)
 		(pin "PWR_EXT_EN" output
-			(at 105.41 125.73 180)
+			(at 104.14 125.73 180)
 			(uuid "a6ac02d3-c9ac-48cf-9d43-1009ec14b899")
 			(effects
 				(font
@@ -2605,13 +2651,23 @@
 			)
 		)
 		(pin "V_EXT_ADC" input
-			(at 105.41 128.27 180)
+			(at 104.14 128.27 180)
 			(uuid "c646e81c-3bb9-4c62-985b-310fe5a0bb0f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "12V_EN" output
+			(at 127 119.38 90)
+			(uuid "0742253f-f993-40a5-8976-27f0120f70fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2840,7 +2896,7 @@
 	)
 	(sheet
 		(at 175.26 24.13)
-		(size 48.26 69.85)
+		(size 48.26 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2866,7 +2922,7 @@
 			)
 		)
 		(property "Sheetfile" "control_connector.kicad_sch"
-			(at 175.26 94.5646 0)
+			(at 175.26 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2917,7 +2973,7 @@
 			)
 		)
 		(pin "Left_RX" input
-			(at 175.26 85.09 180)
+			(at 175.26 66.04 180)
 			(uuid "22d9e8c2-a2c1-40e0-9851-ca05f26ceab7")
 			(effects
 				(font
@@ -2927,7 +2983,7 @@
 			)
 		)
 		(pin "Left_TX" output
-			(at 175.26 87.63 180)
+			(at 175.26 68.58 180)
 			(uuid "7757560e-76b8-4b38-a8d1-4c91eec90a67")
 			(effects
 				(font
@@ -2937,7 +2993,7 @@
 			)
 		)
 		(pin "Right_RX" input
-			(at 223.52 85.09 0)
+			(at 223.52 66.04 0)
 			(uuid "f2bbd6a6-5bc8-4962-bc51-186139ef7eaa")
 			(effects
 				(font
@@ -2947,7 +3003,7 @@
 			)
 		)
 		(pin "Right_TX" output
-			(at 223.52 87.63 0)
+			(at 223.52 68.58 0)
 			(uuid "3bb8c045-988f-44ec-b682-adaaab24ab9c")
 			(effects
 				(font
@@ -3469,8 +3525,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 35.56)
-		(size 39.37 57.15)
+		(at 104.14 35.56)
+		(size 41.91 57.15)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3485,7 +3541,7 @@
 		)
 		(uuid "e02b7f28-305a-4574-afeb-14db4b4e1edd")
 		(property "Sheetname" "Power"
-			(at 106.68 34.8484 0)
+			(at 104.14 34.8484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3496,7 +3552,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 106.68 93.2946 0)
+			(at 104.14 93.2946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
