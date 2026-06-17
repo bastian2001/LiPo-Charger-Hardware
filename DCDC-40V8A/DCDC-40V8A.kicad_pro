@@ -319,7 +319,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -441,7 +441,7 @@
         "uuid": "c2f330be-6ca8-4ed0-86db-c2e1bfb68425"
       }
     ],
-    "used_designators": "D5,D29-31,R164-165,R172,R200-213,U14,U21-22,Q26,Q47-55,Q66,Q69-80,#PWR89-92,#PWR94-95,#PWR114,#PWR152,#PWR165-169",
+    "used_designators": "TH1-8,L1-3,J1-4,C1-48,D1-31,R1-192,R200-213,U1-22,Q1-57,Q66,Q69-80,#PWR1-155,#PWR165-169",
     "variants": []
   },
   "sheets": [
@@ -460,6 +460,10 @@
     [
       "4147f2be-5121-441a-a725-d81cf0735d2c",
       "ADC-Coprocessor"
+    ],
+    [
+      "35ea2b85-8662-425b-8163-078ba94f1df8",
+      "Temp Sensors"
     ],
     [
       "51381f4c-12f1-4706-8b37-947c995475bc",
@@ -520,10 +524,6 @@
     [
       "82e88553-6a2b-4207-ade0-f53f84fac1b6",
       "Power Inputs"
-    ],
-    [
-      "35ea2b85-8662-425b-8163-078ba94f1df8",
-      "Temp Sensors"
     ],
     [
       "e6ebcbcb-d240-4cbb-8192-a1879e06243d",

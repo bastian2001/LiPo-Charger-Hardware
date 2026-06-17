@@ -1263,7 +1263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014e967f-50f5-422d-b727-2b6b60c474c6")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR045"
 			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1324,7 +1324,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR054")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1342,7 +1342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3491cde7-1ad5-47fb-a239-09a7755b4bc9")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR050"
 			(at 149.86 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -1402,7 +1402,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR02")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1420,7 +1420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51a53a64-ef88-4f9b-b0a6-6002f52608d4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR044"
 			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1480,7 +1480,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR01")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1498,7 +1498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae90cb2-f418-4d87-82cc-92e668c98129")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 140.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1559,7 +1559,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1577,7 +1577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8169f18c-2051-45de-8f76-c04d371f88d5")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR049"
 			(at 140.97 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1638,7 +1638,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR037")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1656,7 +1656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1a1d284-b6ea-490e-9279-a84bed2a08b7")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 152.4 99.4155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,7 +1741,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1758,7 +1758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9f8844b-ce3b-44ac-8af7-d5928a9fb30c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR048"
 			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1819,7 +1819,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR038")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1837,7 +1837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad826d2-6199-45cc-b221-d8f8aab0dc25")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 130.81 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1898,7 +1898,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1916,7 +1916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f382ed78-c9eb-465d-84d4-fcd9cd6aa2a2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1977,7 +1977,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1995,7 +1995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc5f46b1-d6a8-4ba8-a5ab-cb96be9d7e42")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 152.4 66.3955 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2080,7 +2080,7 @@
 		(instances
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/54fe40ea-071e-47fc-93b0-08edbf0643ce"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
