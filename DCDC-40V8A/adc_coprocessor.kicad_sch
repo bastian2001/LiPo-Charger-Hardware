@@ -3237,7 +3237,7 @@
 		)
 		(uuid "945c598b-2d48-458d-a0f6-5a35b96a3017")
 	)
-	(text_box "MOSFETs for PWR_5V disable in case of software error. When either power connection to the outside is enabled, remove the 5V-PWR bridge."
+	(text_box "MOSFETs for PWR_5V disable in case of software error. When power connection to the outside is enabled, remove the 5V-PWR bridge."
 		(exclude_from_sim no)
 		(at 246.38 66.04 0)
 		(size 40.64 10.16)
@@ -3264,6 +3264,12 @@
 		(uuid "20466704-b8a1-405f-9808-507dcbf4c018")
 	)
 	(junction
+		(at 312.42 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346d9a54-999b-448c-bae8-03dc8c7ab66c")
+	)
+	(junction
 		(at 331.47 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3276,22 +3282,10 @@
 		(uuid "4032f99a-f945-4d30-89ce-3b4c14209fea")
 	)
 	(junction
-		(at 314.96 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43156bda-6d09-42a9-9cb5-038e0fc9874c")
-	)
-	(junction
 		(at 293.37 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43f8a346-9acd-4481-b97e-15f682e08a3e")
-	)
-	(junction
-		(at 330.2 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a526f4-8926-442d-a982-ce7ca15df9cb")
 	)
 	(junction
 		(at 107.95 54.61)
@@ -3330,7 +3324,7 @@
 		(uuid "78bf8b41-6177-42b4-b23d-b4421a31127d")
 	)
 	(junction
-		(at 337.82 107.95)
+		(at 320.04 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f835334-2d02-4c3d-8c67-2b22812cb874")
@@ -3401,15 +3395,25 @@
 		(color 0 0 0 0)
 		(uuid "f00edd8a-a98b-4c94-9d04-9c092a050b3c")
 	)
-	(junction
-		(at 307.34 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5578901-7167-4de0-b411-f86bd7c82762")
-	)
 	(no_connect
 		(at 269.24 95.25)
 		(uuid "05e8152a-1173-4732-aca7-a40b00e09387")
+	)
+	(no_connect
+		(at 130.81 106.68)
+		(uuid "47dea35b-81e5-48b1-bc1d-992b70373267")
+	)
+	(no_connect
+		(at 171.45 207.01)
+		(uuid "773d2132-b913-4f5a-83bb-68b91aaed29f")
+	)
+	(no_connect
+		(at 130.81 104.14)
+		(uuid "8d966995-42ae-471d-9974-257a6e8d675e")
+	)
+	(no_connect
+		(at 269.24 102.87)
+		(uuid "e7fa2a36-7a48-4d75-8df3-ed2e5d8231a5")
 	)
 	(no_connect
 		(at 92.71 111.76)
@@ -3465,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 107.95) (xy 345.44 107.95)
+			(xy 320.04 107.95) (xy 327.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3525,16 +3529,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 105.41) (xy 345.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19125617-c6f3-46e9-ae7b-659b8fd2188a")
-	)
-	(wire
-		(pts
 			(xy 129.54 196.85) (xy 146.05 196.85)
 		)
 		(stroke
@@ -3542,16 +3536,6 @@
 			(type default)
 		)
 		(uuid "1b588638-1028-4a37-8980-fd8eccd968a9")
-	)
-	(wire
-		(pts
-			(xy 330.2 102.87) (xy 330.2 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7d6542-a669-43bc-be37-9db0fd1d8469")
 	)
 	(wire
 		(pts
@@ -3625,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 107.95) (xy 314.96 107.95)
+			(xy 299.72 107.95) (xy 320.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3732,6 +3716,16 @@
 			(type default)
 		)
 		(uuid "438b9a95-925d-4b6c-9ba3-a11fea7cd518")
+	)
+	(wire
+		(pts
+			(xy 312.42 105.41) (xy 327.66 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468423ae-6dac-46ec-82c1-9dad9aa3daa4")
 	)
 	(wire
 		(pts
@@ -3975,26 +3969,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 102.87) (xy 330.2 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79557f01-acf7-4fea-8096-9e843352324f")
-	)
-	(wire
-		(pts
-			(xy 330.2 102.87) (xy 345.44 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0d4741-33cb-422f-b0be-b8ba8da6f192")
-	)
-	(wire
-		(pts
 			(xy 85.09 208.28) (xy 81.28 208.28)
 		)
 		(stroke
@@ -4052,16 +4026,6 @@
 			(type default)
 		)
 		(uuid "8bc429af-1c2d-466a-ac82-62108b910fbe")
-	)
-	(wire
-		(pts
-			(xy 175.26 207.01) (xy 171.45 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c6d1074-44fd-4ff0-8261-73e89e626725")
 	)
 	(wire
 		(pts
@@ -4132,6 +4096,16 @@
 			(type default)
 		)
 		(uuid "a40475de-f20d-451c-adf3-ae730406241b")
+	)
+	(wire
+		(pts
+			(xy 312.42 105.41) (xy 312.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a449a1c9-7b80-4077-b86d-b211820784dc")
 	)
 	(wire
 		(pts
@@ -4225,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 105.41) (xy 312.42 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a8dbf2-427a-491e-8cd6-aa00387ac8b2")
+	)
+	(wire
+		(pts
 			(xy 146.05 207.01) (xy 146.05 224.79)
 		)
 		(stroke
@@ -4262,16 +4246,6 @@
 			(type default)
 		)
 		(uuid "bf9121be-8d39-4630-aa12-f5296c9d518c")
-	)
-	(wire
-		(pts
-			(xy 130.81 106.68) (xy 149.86 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf93d211-b6de-4730-b8a0-d351790ad7c5")
 	)
 	(wire
 		(pts
@@ -4365,16 +4339,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 105.41) (xy 307.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8524d88-a98a-459b-a0bb-71e84a296379")
-	)
-	(wire
-		(pts
 			(xy 381 190.5) (xy 381 204.47)
 		)
 		(stroke
@@ -4435,16 +4399,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 107.95) (xy 337.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82322aa-b496-435b-bd1d-b73034537043")
-	)
-	(wire
-		(pts
 			(xy 241.3 234.95) (xy 241.3 214.63)
 		)
 		(stroke
@@ -4462,16 +4416,6 @@
 			(type default)
 		)
 		(uuid "ed92416a-464a-4b37-a2ea-8f714ec296e6")
-	)
-	(wire
-		(pts
-			(xy 269.24 105.41) (xy 307.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7cf868-5f5d-459c-96fe-eac3f59d82b1")
 	)
 	(wire
 		(pts
@@ -4502,16 +4446,6 @@
 			(type default)
 		)
 		(uuid "f8891474-e55b-4313-b4db-023b1e157112")
-	)
-	(wire
-		(pts
-			(xy 130.81 104.14) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f942d4e2-b606-447f-b9d6-8b9da0afba37")
 	)
 	(wire
 		(pts
@@ -4905,20 +4839,9 @@
 		)
 		(uuid "1203f07f-ec5d-45ff-a25d-6ab4d401d4c8")
 	)
-	(hierarchical_label "PWR_RAIL_EN"
-		(shape output)
-		(at 345.44 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "18a2badd-6112-42f6-ae3d-235fc7b34eee")
-	)
 	(hierarchical_label "PWR_5V_EN"
 		(shape output)
-		(at 345.44 107.95 0)
+		(at 327.66 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4949,16 +4872,16 @@
 		)
 		(uuid "2cb1a47c-af6b-44a9-8eb3-3b15c59096db")
 	)
-	(hierarchical_label "PWR_XT60IN_EN"
+	(hierarchical_label "PWR_EXT_EN"
 		(shape output)
-		(at 345.44 105.41 0)
+		(at 327.66 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "3b26beb1-373b-4b27-9bd7-7d26c384bb00")
+		(uuid "399be963-b910-41f9-a146-0550785d2788")
 	)
 	(hierarchical_label "TEMP_8_ADC"
 		(shape input)
@@ -5037,17 +4960,6 @@
 		)
 		(uuid "8c321be4-7a4e-4429-aa5e-5a51b224698d")
 	)
-	(hierarchical_label "V_XT60IN_ADC"
-		(shape input)
-		(at 175.26 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a30af7ca-890b-4fdb-9607-11f0aac6487e")
-	)
 	(hierarchical_label "TEMP_3_ADC"
 		(shape input)
 		(at 85.09 208.28 0)
@@ -5125,17 +5037,6 @@
 		)
 		(uuid "d4a7b737-2399-4601-8723-b85261c35663")
 	)
-	(hierarchical_label "CP_PWM"
-		(shape output)
-		(at 149.86 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8b370a5-e798-45c1-8b72-980740a046b7")
-	)
 	(hierarchical_label "TEMP_6_ADC"
 		(shape input)
 		(at 85.09 215.9 0)
@@ -5180,7 +5081,7 @@
 		)
 		(uuid "eb21383e-ab42-4e07-991a-f7d7e436c0a6")
 	)
-	(hierarchical_label "V_RAIL_ADC"
+	(hierarchical_label "V_EXT_ADC"
 		(shape input)
 		(at 175.26 204.47 0)
 		(effects
@@ -5204,7 +5105,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 118.11 0)
+		(at 320.04 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5215,7 +5116,7 @@
 		(fields_autoplaced yes)
 		(uuid "00859cfe-7a90-4742-a542-53bd4c9c26b4")
 		(property "Reference" "#PWR084"
-			(at 337.82 124.46 0)
+			(at 320.04 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,7 +5127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.82 123.19 0)
+			(at 320.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,7 +5137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 118.11 0)
+			(at 320.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 118.11 0)
+			(at 320.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 337.82 118.11 0)
+			(at 320.04 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +6814,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 335.28 113.03 0)
+		(at 317.5 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6924,7 +6825,7 @@
 		(fields_autoplaced yes)
 		(uuid "7104d171-2c68-424d-8e6f-61602abccc09")
 		(property "Reference" "Q22"
-			(at 341.63 111.7599 0)
+			(at 323.85 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6935,7 +6836,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 341.63 114.2999 0)
+			(at 323.85 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6946,7 +6847,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 340.36 114.935 0)
+			(at 322.58 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +6860,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 340.36 116.84 0)
+			(at 322.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +6872,7 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 335.28 113.03 0)
+			(at 317.5 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,84 +7414,6 @@
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/4147f2be-5121-441a-a725-d81cf0735d2c"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 314.96 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f28b6d5-54f3-43cf-af15-9e2430096d87")
-		(property "Reference" "#PWR083"
-			(at 314.96 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 314.96 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 314.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 314.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c959b1e-7b97-417a-8cbf-23ac1ebed1be")
-		)
-		(instances
-			(project "DCDC-40V8A"
-				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/4147f2be-5121-441a-a725-d81cf0735d2c"
-					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -8989,94 +8812,6 @@
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/4147f2be-5121-441a-a725-d81cf0735d2c"
 					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 312.42 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c843478f-a99c-413a-a822-aea9164bcd04")
-		(property "Reference" "Q44"
-			(at 318.77 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 318.77 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 317.5 114.935 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 317.5 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 312.42 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7d093f96-0617-4327-992b-e9e9b60d758a")
-		)
-		(pin "1"
-			(uuid "a07b1a4a-4688-44d7-adf9-25a6d56ecb39")
-		)
-		(pin "3"
-			(uuid "74a57336-f5e9-46c6-a7dd-4bba03236c01")
-		)
-		(instances
-			(project "DCDC-40V8A"
-				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/4147f2be-5121-441a-a725-d81cf0735d2c"
-					(reference "Q44")
 					(unit 1)
 				)
 			)

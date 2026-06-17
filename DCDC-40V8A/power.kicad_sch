@@ -4971,10 +4971,10 @@
 		)
 		(uuid "16b6a8ea-5172-4742-a5a8-95b6c163306c")
 	)
-	(text_box "All the possible power sources are shorted together via diodes to create the VIN for the 5V DCDC. The battery source can be selectively turned off to prevent power the battery if there is VCC but VCC is lower than VBAT.\nIn order to aid with a \"cold\" start, there's power from V_LEFT_AUX_IN and V_RIGHT_AUX_IN in addition to VCC. This diode setup makes it slightly less efficient, but this is fine.\n5V is stepped up to 12V for the high side gate drivers and potentially the fan. Since this also needs to work from USB 5V, a boost is needed.\nThere's also a 5V->VCC passthrough transistor to be able to use the USB's 5V power in a pinch, but this is quite slow. V_LEFT and V_RIGHT MOSFETs are locked off in this state.\nIf the 5V rail rises above 5.4V for some reason, ACOV is triggered and the main DCDC turns off automatically."
+	(text_box "All the possible power sources are shorted together via diodes to create the VIN for the 5V DCDC. The battery source can be selectively turned off to prevent power the battery if there is VCC but VCC is lower than VBAT.\nIn order to aid with a \"cold\" start, there's power from V_LEFT_AUX_IN and V_RIGHT_AUX_IN in addition to VCC. This diode setup makes it slightly less efficient, but this is fine.\n5V is stepped up to 12V for the high side gate drivers and potentially the fan. Since this also needs to work from USB 5V, a boost is needed.\nThere's also a 5V->VCC passthrough transistor to be able to use the USB's 5V power in a pinch, but this is quite slow. V_EXT MOSFETs are locked off in this state.\nIf the 5V rail rises above 5.4V for some reason, ACOV is triggered and the main DCDC turns off automatically."
 		(exclude_from_sim no)
-		(at 323.85 27.94 0)
-		(size 69.85 36.83)
+		(at 323.85 30.48 0)
+		(size 69.85 32.5731)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5426,6 +5426,12 @@
 		(uuid "bea9a0d6-93fe-40d8-a726-be739260f268")
 	)
 	(junction
+		(at 71.12 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3497ecf-fef3-4d71-a8fb-305d6566ec08")
+	)
+	(junction
 		(at 246.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5568,6 +5574,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f916764e-cf6b-47d8-b2c2-e8195af3c6a1")
+	)
+	(junction
+		(at 71.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad0f8d5-2ce5-4cdd-9f74-8c0f95621394")
 	)
 	(junction
 		(at 358.14 101.6)
@@ -6467,6 +6479,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 58.42) (xy 71.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51be85b6-c2f6-4bc3-83a5-f6e45c8f2cc3")
+	)
+	(wire
+		(pts
 			(xy 90.17 195.58) (xy 90.17 200.66)
 		)
 		(stroke
@@ -6594,6 +6616,16 @@
 			(type default)
 		)
 		(uuid "6379ac96-e0e3-4e3c-a629-95054b2d928b")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6530cdd7-4120-4277-ac93-3268a3ae5c1b")
 	)
 	(wire
 		(pts
@@ -7167,6 +7199,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 58.42) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c82cb7-4a1f-4ce5-81ac-67c8b8d15918")
+	)
+	(wire
+		(pts
+			(xy 71.12 58.42) (xy 81.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fd003c-e2fa-4d85-9f41-a868168c997c")
+	)
+	(wire
+		(pts
 			(xy 22.86 60.96) (xy 22.86 68.58)
 		)
 		(stroke
@@ -7477,7 +7529,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 68.58) (xy 88.9 68.58)
+			(xy 22.86 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7514,6 +7566,16 @@
 			(type default)
 		)
 		(uuid "c3f341bb-3401-4bea-804c-067cd201c947")
+	)
+	(wire
+		(pts
+			(xy 71.12 67.31) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e66f0d-7dff-4548-87de-d2dd91e56cf3")
 	)
 	(wire
 		(pts
@@ -7827,6 +7889,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 58.42) (xy 81.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f209f8bd-8fe3-43e2-810d-d2e7ce534d38")
+	)
+	(wire
+		(pts
 			(xy 85.09 179.07) (xy 114.3 179.07)
 		)
 		(stroke
@@ -8074,7 +8146,7 @@
 	)
 	(hierarchical_label "BAT_DCDC_DIS"
 		(shape input)
-		(at 81.28 63.5 180)
+		(at 64.77 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9387,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Value" "V_XT60IN"
+		(property "Value" "V_EXT"
 			(at 68.58 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16505,6 +16577,88 @@
 			(project "DCDC-40V8A"
 				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/e02b7f28-305a-4574-afeb-14db4b4e1edd"
 					(reference "Q59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b624ff79-1f77-4c68-8ec0-5336aa1dd7a4")
+		(property "Reference" "R172"
+			(at 73.66 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 73.66 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 69.342 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a321d925-4623-444b-8972-646245b1edb0")
+		)
+		(pin "2"
+			(uuid "f8981771-d56b-4587-afe3-91acc714f4e0")
+		)
+		(instances
+			(project "DCDC-40V8A"
+				(path "/c2f330be-6ca8-4ed0-86db-c2e1bfb68425/e02b7f28-305a-4574-afeb-14db4b4e1edd"
+					(reference "R172")
 					(unit 1)
 				)
 			)

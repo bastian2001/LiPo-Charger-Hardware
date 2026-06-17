@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 105.41 124.46)
+			(xy 86.36 128.27) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1095,16 +1095,6 @@
 			(type default)
 		)
 		(uuid "4b39e24f-a028-41f9-8fd6-e107f3036292")
-	)
-	(wire
-		(pts
-			(xy 86.36 127) (xy 105.41 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c05d289-996b-4978-8410-c9ae58657ade")
 	)
 	(wire
 		(pts
@@ -1638,16 +1628,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 105.41 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f3c87a-43df-432b-ac7c-a5da4a285e9d")
-	)
-	(wire
-		(pts
 			(xy 154.94 222.25) (xy 154.94 233.68)
 		)
 		(stroke
@@ -1688,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 105.41 121.92)
+			(xy 86.36 125.73) (xy 105.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2614,9 +2594,9 @@
 				(justify right)
 			)
 		)
-		(pin "PWR_RAIL_EN" output
-			(at 105.41 124.46 180)
-			(uuid "bc822696-a28c-4fb6-bfaa-713ef1fd5f0d")
+		(pin "PWR_EXT_EN" output
+			(at 105.41 125.73 180)
+			(uuid "a6ac02d3-c9ac-48cf-9d43-1009ec14b899")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,29 +2604,9 @@
 				(justify left)
 			)
 		)
-		(pin "PWR_XT60IN_EN" output
-			(at 105.41 127 180)
-			(uuid "eac43a77-e6af-4fc6-b742-b5b71201b76f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_RAIL_ADC" input
-			(at 105.41 121.92 180)
-			(uuid "8d4418de-fd0c-47ff-b2b5-c4f6890f27c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_XT60IN_ADC" input
-			(at 105.41 129.54 180)
-			(uuid "ac0d7157-5152-4f1d-ae00-f0543c971e91")
+		(pin "V_EXT_ADC" input
+			(at 105.41 128.27 180)
+			(uuid "c646e81c-3bb9-4c62-985b-310fe5a0bb0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,8 +3111,8 @@
 		)
 	)
 	(sheet
-		(at 33.02 78.74)
-		(size 53.34 64.77)
+		(at 33.02 116.84)
+		(size 53.34 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3167,7 +3127,7 @@
 		)
 		(uuid "82e88553-6a2b-4207-ade0-f53f84fac1b6")
 		(property "Sheetname" "Power Inputs"
-			(at 33.02 78.0284 0)
+			(at 33.02 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3178,7 +3138,7 @@
 			)
 		)
 		(property "Sheetfile" "power_inputs.kicad_sch"
-			(at 33.02 144.0946 0)
+			(at 33.02 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3188,9 +3148,9 @@
 				(justify left top)
 			)
 		)
-		(pin "RAIL_ADC" output
-			(at 86.36 121.92 0)
-			(uuid "857e273e-9576-4242-81ef-33dd99952538")
+		(pin "V_EXT_ADC" output
+			(at 86.36 128.27 0)
+			(uuid "7daa7a13-d885-49e2-925c-ede2e54acb46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,29 +3158,9 @@
 				(justify right)
 			)
 		)
-		(pin "RAIL_EN" input
-			(at 86.36 124.46 0)
-			(uuid "3559223a-085a-43d6-8f06-725fa4b6874b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "XT60IN_ADC" output
-			(at 86.36 129.54 0)
-			(uuid "eb07b6b2-ae8a-4e35-bed3-90d2e553e4f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "XT60IN_EN" input
-			(at 86.36 127 0)
-			(uuid "20747c3a-e904-4836-8658-24fdb012d922")
+		(pin "PWR_EXT_EN" input
+			(at 86.36 125.73 0)
+			(uuid "e685a4ad-7502-48f4-95ec-7867bdd3983f")
 			(effects
 				(font
 					(size 1.27 1.27)
